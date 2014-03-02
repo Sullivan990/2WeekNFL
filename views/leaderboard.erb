@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NFL 2014 Leaderboard</title>
+</head>
+
+<body>
+  <h1>NFL 2014 Season</h1>
+  <h2>Season Leaderboard</h2>
+  <% @team_stat.each do |team| %>
+    <p><%= team %></p>
+    <p>Wins:<%= team[:win].to_i %></p>
+    <p>Losses:<%= team[:loss].to_i %></p>
+  <% end %>
+</body>
