@@ -8,11 +8,11 @@
 <body>
   <h1>NFL 2014 Season</h1>
   <h2>Season Leaderboard</h2>
-  <% @team_stat.each do |stat| %>
+  <% @team_stats.each do |stat| %>
     <div>
     <b><%= stat[0] %></b>
-    <p>Wins: <%= stat[1][:win] %></p>
-    <p>Losses: <%= stat[1][:loss] %></p>
+    <p>Wins: <%= stat[1][:wins] %></p>
+    <p>Losses: <%= stat[1][:losses] %></p>
     <br>
     </div>
   <% end %>
