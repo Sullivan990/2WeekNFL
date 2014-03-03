@@ -27,22 +27,23 @@ before do
   ]
   @team_stat = {
     "Patriots" => {
-      win: 3,
-      loss: 0
+      win: "3",
+      loss: "0"
     },
     "Broncos" => {
-      win: 1,
-      loss: 1
+      win: "1",
+      loss: "1"
     },
     "Steelers" => {
-      win: 0,
-      loss: 1
+      win: "0",
+      loss: "1"
     },
     "Colts" => {
-      win: 0,
-      loss: 2
+      win: "0",
+      loss: "2"
     }
   }
+  @keys = @team_stat.keys
 
 end
 
