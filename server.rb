@@ -10,13 +10,13 @@ require 'csv'
 # Steelers,Patriots,7,21
 
 # and want to end up with something like this:
-
-{
-  'Patriots' => { wins: 3, losses: 0 },
-  'Broncos' => { wins: 2, losses: 1 },
-  'Colts' => { wins: 0, losses: 2 },
-  'Steelers' => { wins: 0, losses: 1 }
-}
+#
+# {
+#   'Patriots' => { wins: 3, losses: 0 },
+#   'Broncos' => { wins: 2, losses: 1 },
+#   'Colts' => { wins: 0, losses: 2 },
+#   'Steelers' => { wins: 0, losses: 1 }
+# }
 
 before do
   game_data_file = 'data/season_games.csv'
